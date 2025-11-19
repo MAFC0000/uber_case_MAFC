@@ -4,7 +4,7 @@
 This repository contains the complete analytics pipeline designed to enhance delivery accuracy and optimize operational efficiency for Uber Eats in the Mexico region. The core objective is to move from historical reporting to real-time predictive insights.
 
 **Key Deliverables:**
-* *Data Extraction query:* Contains the SQL query (.sql file) necessary to consolidate raw operational tables into a clean, model-ready dataset. This query is designed for weekly refreshment, ensuring data integrity for both reporting and predictive modeling.
+* *Data Extraction query (Query.sql):* Contains the SQL query (.sql file) necessary to consolidate raw operational tables into a clean, model-ready dataset. This query is designed for weekly refreshment, ensuring data integrity for both reporting and predictive modeling.
 
 * *Streamlit Dashboard (streamlit_dashboard/):* Serves as the primary operational and managerial interface, here we will find two pages.
     - Historical & Trend Analysis: Integrates descriptive analytics of delivery performance alongside a Time Series Forecasting model to project future delivery volumes and ATD trends.
