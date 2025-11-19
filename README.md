@@ -18,6 +18,6 @@ The analysis utilizes a comprehensive dataset detailing deliveries across the ma
 The modelling relies on structured features derived from the raw data, including cyclical features (Day of Week, Hour), mapped geographic variables (Territory Average Velocity), and core logistics metrics (pickup_distance, dropoff_distance).
 
 ## Setup & Production Notes
-* *Reproducibility:* Inside the streamlit_dashboard folder, the requirements.txt file lists all required Python libraries (Pandas, Streamlit, Scikit-learn, XGBoost, Joblib, etc.) necessary to fully run the project. In the 'How to run.txt' file we will find a detailed guide to run the dashboard.
+* *Reproducibility:* Inside the repository, the requirements.txt file lists all required Python libraries (Pandas, Streamlit, Scikit-learn, XGBoost, Joblib, etc.) necessary to fully run the project. In the 'How to run.pdf' file we will find a detailed guide to run the dashboard.
 
 * *Model Deployment:* The entire prediction logic (preprocessor + final model) is encapsulated within a serialized joblib pipeline. This ensures that the live prediction in the dashboard uses the exact same transformations (normalization, cyclical encoding, imputation) as the training environment, ensuring consistency and reliability.
